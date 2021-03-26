@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+  background: url('../assets/drums-background.jpg') no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+@mixin display($size) {
+  @if $size == small {
+    @media (max-width: 576px) { @content; }
+  }@else if $size == tablet {
+    @media (max-width: 1240px) { @content; }
+  }
+}
