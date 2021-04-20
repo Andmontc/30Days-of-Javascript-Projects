@@ -7,3 +7,5 @@
 ## 3. Variables https://cssvariables.herokuapp.com/
 
 ## 4. flex-gallery  https://flex-img.netlify.app/
+
+## 5. Fetch-Practice https://fetchpractice.netlify.app/
